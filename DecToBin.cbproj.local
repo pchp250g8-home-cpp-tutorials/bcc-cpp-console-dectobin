@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2026.02.19 21:46:03.786,=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2026.02.19 21:46:03.950,=C:\Users\PC\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
+    <Transaction>2026.02.19 21:55:32.530,D:\Projects\Programming\CPP\BDS\Console\Algorithms\DecToBin\DecToBinPCH1.h=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2026.02.19 21:55:32.547,D:\Projects\Programming\CPP\BDS\Console\Algorithms\DecToBin\File1.cpp=C:\Users\PC\Documents\Embarcadero\Studio\Projects\File1.cpp</Transaction>
+    <Transaction>2026.02.19 21:55:32.563,D:\Projects\Programming\CPP\BDS\Console\Algorithms\DecToBin\DecToBin.cbproj=C:\Users\PC\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>2026.02.19 21:55:48.414,D:\Projects\Programming\CPP\BDS\Console\Algorithms\DecToBin\DecToBin.cpp=D:\Projects\Programming\CPP\BDS\Console\Algorithms\DecToBin\File1.cpp</Transaction>
+    <Transaction>2026.02.19 21:55:51.001,D:\Projects\Programming\CPP\BDS\Console\Algorithms\DecToBin\DecToBin.cbproj=D:\Projects\Programming\CPP\BDS\Console\Algorithms\DecToBin\DecToBin.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>
