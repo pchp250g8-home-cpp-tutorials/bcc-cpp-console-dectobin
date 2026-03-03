@@ -11,7 +11,7 @@ The program does the following:
      c) It is translated into a string (symbol). This symbol is added to the end of the string that was declared in point 3.
      d) The temporary variable is divided by 2.
   6. If the string remains empty after the loop completes, it is replaced with the character "0".
-  7. The entered number and its binary number (the string that was declared in point 3 are displayed on the screen.
+  7. The entered number and its binary number (the string that was declared in point 3) are displayed on the screen.
 Developed in the Embarcadero Rad Studio IDE integrated environment.
 
 DecToBin. Занятия по C++. ИС Embarcadero Rad Studio. Простой Ввод/Вывод. Алгоритмы. Строки. Платформа Windows. Консольное приложение. Консольное приложение написанное на языке программирования C++. 
