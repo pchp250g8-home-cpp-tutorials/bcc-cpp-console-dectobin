@@ -4,11 +4,12 @@
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-    int uDecNum,uTempVal;
+
+    long  uDecNum,uTempVal;
     std::string strBinNum;
     std::cout << "Input an unsigned integer number\r\n";
     std::cin >> uDecNum;
-    if (uDecNum < 0)
+    if (uDecNum < 0 or uDecNum > UINT32_MAX)
     {
         std::cout << "Inorrect number format\r\n";
         std::cin.ignore();
@@ -24,7 +25,7 @@ int _tmain(int argc, _TCHAR* argv[])
     }
     if (strBinNum.empty()) strBinNum = "0";
     std::cout << "The binary equivalent of the number " << uDecNum << " is:"
-        << strBinNum << "\r\n";
+        	  << strBinNum << "\r\n";
     std::cin.ignore();
     std::cin.get();
     return 0;
