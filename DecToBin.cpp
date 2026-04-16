@@ -5,7 +5,7 @@
 int _tmain(int argc, _TCHAR* argv[])
 {
 
-    long  uDecNum,uTempVal;
+    long long  uDecNum,uTempVal;
     std::string strBinNum;
     std::cout << "Input an unsigned integer number\r\n";
     std::cin >> uDecNum;
@@ -19,8 +19,9 @@ int _tmain(int argc, _TCHAR* argv[])
     uTempVal = uDecNum;
     while (uTempVal > 0)
     {
-        char chDighit = static_cast<char>((uTempVal % 2) + '0');
-        strBinNum = chDighit + strBinNum;
+        long long nBinDigit = uTempVal % 2;
+        char chBinDighit = static_cast<char>(nBinDigit + '0');
+        strBinNum = chBinDighit + strBinNum;
         uTempVal /= 2;
     }
     if (strBinNum.empty()) strBinNum = "0";
@@ -30,3 +31,4 @@ int _tmain(int argc, _TCHAR* argv[])
     std::cin.get();
     return 0;
 }
+
